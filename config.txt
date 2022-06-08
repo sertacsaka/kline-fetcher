@@ -1,0 +1,25 @@
+[settings]
+ohlcv_files_directory = klines/
+#timeframes_to_fetch = 1h,4h,1d
+timeframes_to_fetch = 1d
+klines_per_step = 500
+backward_delta_years = 3
+
+[whitelist]
+# "members =" satırının altından itibaren o satıra göre içerden alt alta liste halinde yazılır
+members =
+#    örnek
+#    BTC/USDT
+#    ETH/USDT
+    BTC/USDT
+    ETH/USDT
+
+[blacklist]
+# "members =" satırının altından itibaren o satıra göre içerden alt alta liste halinde yazılır
+members =
+    TUSD/USDT
+    USDC/USDT
+    PAX/USDT
+#    örnek
+#    DOGE/USDT
+#    SHIB/USDT
