@@ -1,5 +1,5 @@
 # kline-fetcher
-A tool to fetch all historical kline data into csv file
+## A tool to fetch all historical kline data into csv file
 
 Cryptocurrency Exchange API's generally put a limit on the amount of data that can be retrieved at once.
 
